@@ -3,10 +3,10 @@
 <div align="center">
   <p>
     <h5>Light Mode</h5>
-    <img src="./docs/light.png#gh-light-mode-only"/>
+    <img src="./docs/light.png"/>
   </p>
   <p>
     <h5>Dark Mode</h5>
-    <img src="./docs/dark.png#gh-dark-mode-only"/>
+    <img src="./docs/dark.png"/>
   </p>
 </div>
