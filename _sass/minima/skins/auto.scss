@@ -6,21 +6,21 @@
 $color-scheme-auto: true !default;
 $color-scheme-dark: false !default;
 
-
 // Light mode
 // ----------
 
-$lm-brand-color:           #828282 !default;
+$lm-brand-color:           #fdfdfd !default;
 $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
-$lm-brand-color-dark:      darken($lm-brand-color, 25%) !default;
+$lm-brand-color-dark:      #c84b31 !default; // darken($lm-brand-color, 25%) !default;
 
 $lm-site-title-color:      $lm-brand-color-dark !default;
 
-$lm-text-color:            #111111 !default;
+$lm-text-color:            #404453 !default;
 $lm-background-color:      #fdfdfd !default;
 $lm-code-background-color: #eeeeff !default;
+$lm-background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9Ijk3LjExOSUiIGlkPSJhIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iI2YzZjNmMyIgb2Zmc2V0PSIwJSIvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjZWVlZWVlIiBvZmZzZXQ9IjEwMCUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NTAgLTEyMTIpIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPGNpcmNsZSBmaWxsPSJ1cmwoI2EpIiBjeD0iNTgxIiBjeT0iMTcxMiIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIGZpbGw9InVybCgjYSkiIGN4PSIyMDQ1IiBjeT0iMTQ4OCIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIyIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTcyNCAyMDg2KSIgY3g9IjE3MjQiIGN5PSIyMDg2IiByPSIzMDYiLz4KICA8L2c+Cjwvc3ZnPgo=");
 
-$lm-link-base-color:       #2a7ae2 !default;
+$lm-link-base-color:       #3068d8 !default;
 $lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
 $lm-link-hover-color:      $lm-text-color !default;
 
@@ -106,17 +106,18 @@ $lm-table-border-color:    $lm-border-color-01 !default;
 // Dark mode
 // ---------
 
-$dm-brand-color:           #999999 !default;
+$dm-brand-color:           #e2e2e2 !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
 $dm-brand-color-dark:      darken($dm-brand-color, 35%) !default;
 
 $dm-site-title-color:      $dm-brand-color-light !default;
 
-$dm-text-color:            #bbbbbb !default;
-$dm-background-color:      #181818 !default;
+$dm-text-color:            #e2e2e2 !default;
+$dm-background-color:      #10121e !default;
 $dm-code-background-color: #212121 !default;
+$dm-background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IHgxPSI1MCUiIHkxPSIwJSIgeDI9IjUwJSIgeTI9Ijk3LjExOSUiIGlkPSJhIj4KICAgICAgPHN0b3Agc3RvcC1jb2xvcj0iIzBGMTIxRiIgb2Zmc2V0PSIwJSIvPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMTMxNzI0IiBvZmZzZXQ9IjEwMCUiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgPC9kZWZzPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01NTAgLTEyMTIpIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPGNpcmNsZSBmaWxsPSJ1cmwoI2EpIiBjeD0iNTgxIiBjeT0iMTcxMiIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIGZpbGw9InVybCgjYSkiIGN4PSIyMDQ1IiBjeT0iMTQ4OCIgcj0iMzA2Ii8+CiAgICA8Y2lyY2xlIHN0cm9rZT0idXJsKCNhKSIgc3Ryb2tlLXdpZHRoPSIyIiB0cmFuc2Zvcm09InJvdGF0ZSgxODAgMTcyNCAyMDg2KSIgY3g9IjE3MjQiIGN5PSIyMDg2IiByPSIzMDYiLz4KICA8L2c+Cjwvc3ZnPgo=");
 
-$dm-link-base-color:       #79b8ff !default;
+$dm-link-base-color:       #c84b31 !default;
 $dm-link-visited-color:    $dm-link-base-color !default;
 $dm-link-hover-color:      $dm-text-color !default;
 
@@ -218,6 +219,7 @@ $site-title-color: $lm-site-title-color;
 
 $text-color: $lm-text-color;
 $background-color: $lm-background-color;
+$background-image: $lm-background-image;
 $code-background-color: $lm-code-background-color;
 
 $link-base-color: $lm-link-base-color;
@@ -249,6 +251,7 @@ $table-border-color: $lm-table-border-color;
     --minima-text-color: #{$lm-text-color};
     --minima-background-color: #{$lm-background-color};
     --minima-code-background-color: #{$lm-code-background-color};
+    --minima-background-image: $lm-background-color;
 
     --minima-link-base-color: #{$lm-link-base-color};
     --minima-link-visited-color: #{$lm-link-visited-color};
@@ -279,6 +282,8 @@ $table-border-color: $lm-table-border-color;
       --minima-background-color: #{$dm-background-color};
       --minima-code-background-color: #{$dm-code-background-color};
 
+      --minima-background-image: $dm-background-color;
+
       --minima-link-base-color: #{$dm-link-base-color};
       --minima-link-visited-color: #{$dm-link-visited-color};
       --minima-link-hover-color: #{$dm-link-hover-color};
@@ -306,6 +311,7 @@ $table-border-color: $lm-table-border-color;
   $text-color: var(--minima-text-color);
   $background-color: var(--minima-background-color);
   $code-background-color: var(--minima-code-background-color);
+  $background-image: var(--minima-background-image);
 
   $link-base-color: var(--minima-link-base-color);
   $link-visited-color: var(--minima-link-visited-color);

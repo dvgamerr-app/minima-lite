@@ -6,7 +6,16 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
-    {%- if titles_size > 0 -%}
+    <nav class="site-nav">
+      <div class="github-button">
+        <a class="github-button" href="https://github.com/sponsors/dvgamerr" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-heart" data-size="large" aria-label="Sponsor @dvgamerr on GitHub">Sponsor</a>
+      </div>
+      <div class="github-button">
+        <a class="github-button" href="https://github.com/dvgamerr/go-hoyolab" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star dvgamerr/go-hoyolab on GitHub">Star</a>
+      </div>
+
+    </nav>
+    <!-- {%- if titles_size > 0 -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -17,7 +26,7 @@
           </span>
         </label>
 
-        <div class="trigger">
+
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
@@ -26,6 +35,6 @@
           {%- endfor -%}
         </div>
       </nav>
-    {%- endif -%}
+    {%- endif -%} -->
   </div>
 </header>

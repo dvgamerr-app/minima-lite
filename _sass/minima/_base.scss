@@ -2,6 +2,12 @@ html {
   font-size: $base-font-size;
 }
 
+html, body {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 /**
  * Reset some basic elements
  */
@@ -13,8 +19,6 @@ dl, dd, ol, ul, figure {
 
 }
 
-
-
 /**
  * Basic styling
  */
@@ -22,6 +26,7 @@ body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
   background-color: $background-color;
+  background-image: $background-image;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -114,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $link-base-color;
   text-decoration: none;
+  opacity: .9;
 
   &:visited {
     color: $link-visited-color;
@@ -122,6 +128,7 @@ a {
   &:hover {
     color: $link-hover-color;
     text-decoration: underline;
+    opacity: 1;
   }
 
   .social-media-list &:hover {
@@ -238,11 +245,10 @@ pre {
 }
 
 .svg-icon {
-  width: 1.25em;
-  height: 1.25em;
+  width: 1em;
+  height: 1em;
   display: inline-block;
   fill: currentColor;
-  vertical-align: text-bottom;
 }
 
 
