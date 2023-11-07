@@ -1,10 +1,11 @@
-title: Your awesome title
+title: MINIMALite
+repo: minima-lite
+version: v1.0.0
 author:
-  name: GitHub User
-  email: your-email@domain.com
+  username: dvgamerr
+  name: Kananek T.
+  website: https://mr.touno.io/
 
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
   Write an awesome description for your new site here. You can edit this line
   in _config.yml. It will appear in your document head meta (for Google search
@@ -13,17 +14,14 @@ description: >
 # Build settings
 cronitor_token: f79386d38615cb7705017b89c2652da1
 
-# theme: minima-lite
-
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
 # Theme-specific settings
-
+# theme: minima-lite
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%d %b %Y"
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
@@ -32,11 +30,10 @@ minima:
   # Generate social links in footer.
   #
   social_links:
-  #   - { platform: devto,          user_url: "https://dev.to/dvgamerr" }
+    - { platform: devto,          user_url: "https://dev.to/dvgamerr" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/dvgamerr" }
     - { platform: facebook,       user_url: "https://www.facebook.com/dvgamerr" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/dvgamerr" }
-    - { platform: github,         user_url: "https://github.com/dvgamerr" }
   #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
   #   - { platform: instagram,      user_url: "https://www.instagram.com/dvgamerr" }
   #   - { platform: keybase,        user_url: "https://keybase.io/dvgamerr" }

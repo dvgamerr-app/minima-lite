@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name     = "minima-lite"
   spec.version  = "1.0.0"
   spec.authors  = ["Kananek T."]
-  spec.email    = ["kananek.dev@touno.io"]
+  spec.email    = ["info.dvgamer@gmail.com"]
 
   spec.summary  = "A beautiful, minimal theme for Jekyll."
   spec.homepage = "https://github.com/dvgamerr/minima-lite"
