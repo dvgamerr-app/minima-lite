@@ -9,7 +9,7 @@
 </div>
 
 
-<p><a href="https://dvgamerr.github.io/minima-lite/">Theme preview</a></p>
+<p><a href="https://dvgamerr.app/minima-lite/">Theme preview</a></p>
 <div align="center"><img src="./docs/dark-light.png"/></div>
 
 # License
